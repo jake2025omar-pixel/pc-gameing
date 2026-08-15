@@ -27,7 +27,7 @@ const generatedAssets = {
  * Vite serves it from:
  * /games/app.exe
  */
-const GAME_DOWNLOAD_URL = "/games/app.exe";
+const GAME_DOWNLOAD_URL = `${import.meta.env.BASE_URL}games/app.exe`;
 
 const catalogImages = [
   "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80",
